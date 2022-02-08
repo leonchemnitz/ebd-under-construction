@@ -1,0 +1,60 @@
+html,body{
+  width: 100%;
+  height:100%;
+  background: white;
+  color: black;
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  font-family: Helvetica, sans-serif;
+}
+
+.header-img-container{
+  display:flex;
+  flex-direction: row-reverse;
+  padding: 1em;
+  padding-bottom: 1.5em;
+  margin-right: 4em;
+}
+
+.red-stripe{
+  background: red;
+  height: 1.5em;
+  width: 100%;
+}
+
+.content{
+  position: relative;
+  padding: 2em;
+}
+
+.under-construction-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.under-construction-text{
+  font-weight: 800;
+}
+h2{
+  font-size: 1.1em;
+}
+
+.contacts{
+  display: flex;
+  margin-left: clamp(1em,20%, 10em);
+}
+.partners{
+  margin-right: 1em;
+}
+
+.footer{
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1em;
+}
